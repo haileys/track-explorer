@@ -20,10 +20,10 @@ Then pass that slug as a command line argument to `track-explorer.rb`:
 
 ```
 λ ./track-explorer.rb 81480_octane-dlr-break-murmur
-  Inf  Octane & DLR & Break                      Murmur
-  7.2  Metrik                                    Drift
-  5.3  Noisia & The Upbeats                      Dustup
-  4.1  Wilkinson                                 Automatic
-  3.1  Calyx & TeeBee                            Elevate This Sound
+     Inf    Murmur - Octane & DLR & Break
+    7.21    Drift - Metrik
+    5.32    Dustup - Noisia & The Upbeats
+    4.13    Automatic - Wilkinson
+    3.13    Elevate This Sound - Calyx & TeeBee
 ...
 ```

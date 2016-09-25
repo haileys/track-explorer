@@ -140,6 +140,6 @@ if $0 == __FILE__
   similar_tracks = TrackExplorer.find_similar_tracks("/track/#{track_slug}/index.html").sync
 
   similar_tracks.take(40).each do |track, score|
-    printf("%5.1f  %-40s  %s\n", score, track.artist, track.name)
+    printf("%8.2f    %s - %s\n", score, track.name, track.artist)
   end
 end
